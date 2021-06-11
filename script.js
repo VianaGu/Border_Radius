@@ -7,5 +7,5 @@ function setRadius(value){
     const valor = document.getElementById("text").value;
 
     document.getElementById("mid").style.borderRadius = valor + "px";
-    console.log(valor)
+   
 }
