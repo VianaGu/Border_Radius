@@ -19,20 +19,24 @@
     <br>
     <!-- Espaço onde o user add o radius desejado  -->
     <div class="textField">
-        <h3>Insira o valor aqui do Border Radius em pixels</h3>
+        <h3>Insira o valor aqui do Border Radius</h3>
         <input class="fieldText" placeholder="Ex: 10px" id="text"></input>
     </div>
     
     <!-- Setor dos checkbox  -->
     <div class="input" id="input">
-        <input name="test" class="alt" type="checkbox" id="test" checked>Todos os lados</input>
+        <input name="test" class="alt" type="checkbox" id="test" value="Todos" checked></input>
+        <label for="test">Todos os lados</label>
         <br>
-        <input name="test" class="alt" type="checkbox" id="test">Superior Esquerdo</input>
-        <input name="test" class="alt" type="checkbox" id="test">Superior Direito</input>
+        <input name="Superior Esquerdo" class="alt" type="checkbox" id="SuperiorEsquerdo" value="SE"></input>
+        <label for="SuperiorEsquerdo">Superior Esquerdo</label>
+        <input name="Superior Direito" class="alt" type="checkbox" id="SuperiorDireito" value="SD"></input>
+        <label for="SuperiorDireito">Superior Direito</label>
         <br>
-        <input name="test" class="alt" type="checkbox" id="test">Inferior Esquerdo</input>
-        <input name="test" class="alt" type="checkbox" id="test">Inferior Direito</input>
-
+        <input name="Inferior Esquerdo" class="alt" type="checkbox" id="InferiorEsquerdo" value="IE"></input>
+        <label for="InferiorEsquerdo">Inferior Esquerdo</label>
+        <input name="Inferior Direito" class="alt" type="checkbox" id="InferiorDireito" value="ID"></input>
+        <label for="InferiorDireito">Inferior Direito</label>
     </div>
     <!-- Botão -->
     <button id="button" type="submit">Gerar Código</button>

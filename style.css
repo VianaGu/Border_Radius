@@ -11,19 +11,18 @@ body{
     margin: auto;
 }
 #mid{
-    
     margin: auto;
     align-self: auto;
     height: 350px;
     background-color: yellowgreen;
     width: 80%;
+    text-align: center;
 }
 .input{
     padding-left: 30%;
     box-align: auto;
     margin-left: 10%;
     margin-right: 10%;
-
 }
 .fieldText{
     width: 60px;
