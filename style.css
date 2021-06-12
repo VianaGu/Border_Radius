@@ -11,6 +11,7 @@ body{
     margin: auto;
 }
 #mid{
+    padding-top: 10%;
     margin: auto;
     align-self: auto;
     height: 350px;
