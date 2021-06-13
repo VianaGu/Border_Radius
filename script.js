@@ -20,9 +20,12 @@ text.focus();
 /* Eventos */
 text.addEventListener('keyup',setRadius);
 button.addEventListener("click", myButton);
-window.addEventListener("click",checkedBox);
+SE.addEventListener("click",checkedBox);
+SD.addEventListener("click",checkedBox);
+IE.addEventListener("click",checkedBox);
+ID.addEventListener("click",checkedBox);
 opt.addEventListener("click",checkedBox1);
-window.addEventListener("click", setRadius);
+
 
 
 /* Funções */
